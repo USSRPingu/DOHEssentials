@@ -1,0 +1,7 @@
+{
+  "parent": "dohess:custom/combat_knifebbmodel",
+  "textures": {
+    "0": "dohess:block/combat_knife",
+    "particle": "minecraft:item/iron_sword"
+  }
+}

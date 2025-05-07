@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "royal_knife"
+      },
+      "name": "default"
+    }
+  }
+}

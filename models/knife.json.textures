@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "knife_bandit"
+      },
+      "name": "default"
+    }
+  }
+}

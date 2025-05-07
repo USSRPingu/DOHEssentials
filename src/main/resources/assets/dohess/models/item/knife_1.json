@@ -1,0 +1,7 @@
+{
+  "parent": "dohess:custom/hunting_knife",
+  "textures": {
+    "0": "dohess:block/hunting_knife",
+    "particle": "minecraft:item/iron_sword"
+  }
+}

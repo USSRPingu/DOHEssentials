@@ -1,0 +1,7 @@
+{
+  "parent": "dohess:custom/royal_knife",
+  "textures": {
+    "0": "dohess:block/royal_knife",
+    "particle": "minecraft:item/iron_sword"
+  }
+}

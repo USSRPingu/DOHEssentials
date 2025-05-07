@@ -1,0 +1,7 @@
+{
+  "parent": "dohess:custom/grnade_smoke",
+  "textures": {
+    "0": "dohess:block/bomb_smoke",
+    "particle": "dohess:item/knifetemplate"
+  }
+}

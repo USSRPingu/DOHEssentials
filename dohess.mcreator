@@ -1,0 +1,2012 @@
+{
+  "mod_elements": [
+    {
+      "name": "Hardcore",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardcore",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/HardcoreProcedure.java"
+        ]
+      },
+      "path": "~/PD"
+    },
+    {
+      "name": "HardcoreJoining",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardcore_joining",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/HardcoreJoiningProcedure.java"
+        ]
+      },
+      "path": "~/PD"
+    },
+    {
+      "name": "Template",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/command/TemplateCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "PDOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pd_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/PDOnProcedure.java"
+        ]
+      },
+      "path": "~/PD"
+    },
+    {
+      "name": "PDSemi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pd_semi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/PDSemiProcedure.java"
+        ]
+      },
+      "path": "~/PD"
+    },
+    {
+      "name": "PDOff",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pd_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/PDOffProcedure.java"
+        ]
+      },
+      "path": "~/PD"
+    },
+    {
+      "name": "PDDisplay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pd_display",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/PDDisplayProcedure.java"
+        ]
+      },
+      "path": "~/PD"
+    },
+    {
+      "name": "PDDisplayToggle",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pd_display_toggle",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/PDDisplayToggleProcedure.java"
+        ]
+      },
+      "path": "~/PD"
+    },
+    {
+      "name": "HardcoreRespawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardcore_respawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/HardcoreRespawnProcedure.java"
+        ]
+      },
+      "path": "~/PD"
+    },
+    {
+      "name": "CadetBook",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cadet_book",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/CadetBookProcedure.java"
+        ]
+      },
+      "path": "~/Cadets"
+    },
+    {
+      "name": "DawnOfHumanityEssentials",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dawn_of_humanity_essentials",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GasbarrelOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gasbarrel_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/GasbarrelOnEntityTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Items/GasBarrel"
+    },
+    {
+      "name": "GasbarrelEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gasbarrel_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/GasbarrelEntityIsHurtProcedure.java"
+        ]
+      },
+      "path": "~/Items/GasBarrel"
+    },
+    {
+      "name": "GasbarrelOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gasbarrel_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/GasbarrelOnInitialEntitySpawnProcedure.java"
+        ]
+      },
+      "path": "~/Items/GasBarrel"
+    },
+    {
+      "name": "GrenadeProjectileHits",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenade_projectile_hits",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/GrenadeProjectileHitsProcedure.java"
+        ]
+      },
+      "path": "~/Items/Grenades"
+    },
+    {
+      "name": "SmokeGrenadeProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoke_grenade_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/SmokeGrenadeProjectileHitsBlockProcedure.java"
+        ]
+      },
+      "path": "~/Items/Grenades"
+    },
+    {
+      "name": "JoinWorld",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "join_world",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/JoinWorldProcedure.java"
+        ]
+      },
+      "path": "~/Members"
+    },
+    {
+      "name": "Recruit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recruit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/RecruitProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "Scouts",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scouts",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/ScoutsProcedure.java"
+        ]
+      },
+      "path": "~/Members/Regiment"
+    },
+    {
+      "name": "Garrison",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garrison",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/GarrisonProcedure.java"
+        ]
+      },
+      "path": "~/Members/Regiment"
+    },
+    {
+      "name": "MilitaryPolice",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "military_police",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/MilitaryPoliceProcedure.java"
+        ]
+      },
+      "path": "~/Members/Regiment"
+    },
+    {
+      "name": "Privat",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "privat",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/PrivatProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "PrivateFirstClass",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "private_first_class",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/PrivateFirstClassProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "LanceCorporal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lance_corporal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/LanceCorporalProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "Corporal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corporal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/CorporalProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "Sergeant",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sergeant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/SergeantProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "StaffSergeant",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staff_sergeant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/StaffSergeantProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "Lt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/LtProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "Captain",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "captain",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/CaptainProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "AssistantCmdr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assistant_cmdr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/AssistantCmdrProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "SLC",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/SLCProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "SGC",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sgc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/SGCProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "MPC",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mpc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/MPCProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "Cadet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cadet",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/CadetProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "Custom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/CustomProcedure.java"
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "COS",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cos",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/COSProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "SRS",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "srs",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/SRSProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "REC",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/RECProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "SLSO",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slso",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/SLSOProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "SLS1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sls_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/SLS1Procedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "SLS2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sls_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/SLS2Procedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "GuardianSL",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guardian_pl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/GuardianSLProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "GuardianPSG",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guardian_psg",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/GuardianPSGProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "OneOneSL",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_one_sl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/OneOneSLProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "OneOne",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_one",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/OneOneProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "OneTwoSL",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_two_sl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/OneTwoSLProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "OneTwo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_two",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/OneTwoProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "OneThreeSL",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_three_sl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/OneThreeSLProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "OneThree",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_three",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/OneThreeProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "BulwarkPL",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bulwark_pl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/BulwarkPLProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "BulWarkPSG",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bul_wark_psg",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/BulWarkPSGProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "TwoOneSL",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "two_one_sl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/TwoOneSLProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "TwoOne",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "two_one",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/TwoOneProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "TwoTwoSL",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "two_two_sl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/TwoTwoSLProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "TwoTwo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "two_two",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/TwoTwoProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "TwoThreeSL",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "two_three_sl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/TwoThreeSLProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "TwoThree",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "two_three",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/TwoThreeProcedure.java"
+        ]
+      },
+      "path": "~/Members/Squad"
+    },
+    {
+      "name": "TeamCadet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "team_cadet",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/TeamCadetProcedure.java"
+        ]
+      },
+      "path": "~/Members/Regiment"
+    },
+    {
+      "name": "Government",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "government",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/GovernmentProcedure.java"
+        ]
+      },
+      "path": "~/Members/Regiment"
+    },
+    {
+      "name": "GrenadeProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenade_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/entity/GrenadeProjectileEntity.java"
+        ]
+      },
+      "path": "~/Items/Grenades"
+    },
+    {
+      "name": "Grenade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dohess/models/item/grenade.json",
+          "src/main/java/net/mcreator/dawnofhumanity/item/GrenadeItem.java"
+        ]
+      },
+      "path": "~/Items/Grenades"
+    },
+    {
+      "name": "SmokeGrenadeProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoke_grenade_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/entity/SmokeGrenadeProjectileEntity.java"
+        ]
+      },
+      "path": "~/Items/Grenades"
+    },
+    {
+      "name": "SmokeGrenade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoke_grenade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/item/SmokeGrenadeItem.java",
+          "src/main/resources/assets/dohess/models/item/smoke_grenade.json"
+        ]
+      },
+      "path": "~/Items/Grenades"
+    },
+    {
+      "name": "KnifeTexture",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife_texture",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/KnifeTextureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "Knife",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dohess/models/item/knife_2.json",
+          "src/main/resources/assets/dohess/models/item/knife_1.json",
+          "src/main/resources/assets/dohess/models/item/knife_0.json",
+          "src/main/resources/assets/dohess/models/item/knife_4.json",
+          "src/main/java/net/mcreator/dawnofhumanity/item/KnifeItem.java",
+          "src/main/resources/assets/dohess/models/item/knife.json",
+          "src/main/resources/assets/dohess/models/item/knife_3.json"
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "MedicalKitRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medical_kit_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/MedicalKitRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/MedicalKit"
+    },
+    {
+      "name": "MedicalKit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medical_kit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/item/MedicalKitItem.java",
+          "src/main/resources/assets/dohess/models/item/medical_kit.json"
+        ]
+      },
+      "path": "~/Items/MedicalKit"
+    },
+    {
+      "name": "HuntingKnifeTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hunting_knife_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dohess/models/item/hunting_knife_template.json",
+          "src/main/java/net/mcreator/dawnofhumanity/item/HuntingKnifeTemplateItem.java"
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "CombatKnifeTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combat_knife_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dohess/models/item/combat_knife_template.json",
+          "src/main/java/net/mcreator/dawnofhumanity/item/CombatKnifeTemplateItem.java"
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "RoyalKnifeTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_knife_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/item/RoyalKnifeTemplateItem.java",
+          "src/main/resources/assets/dohess/models/item/royal_knife_template.json"
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "MilitaryKnifeTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "military_knife_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dohess/models/item/military_knife_template.json",
+          "src/main/java/net/mcreator/dawnofhumanity/item/MilitaryKnifeTemplateItem.java"
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "KennyKnifeTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kenny_knife_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dohess/models/item/kenny_knife_template.json",
+          "src/main/java/net/mcreator/dawnofhumanity/item/KennyKnifeTemplateItem.java"
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "Soap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dohess/models/item/soap.json",
+          "src/main/java/net/mcreator/dawnofhumanity/item/SoapItem.java"
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "KnifeTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/item/KnifeTemplateItem.java",
+          "src/main/resources/assets/dohess/models/item/knife_template.json"
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "CrossguardKnife",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crossguard_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/item/CrossguardKnifeItem.java",
+          "src/main/resources/assets/dohess/models/item/crossguard_knife.json"
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "HuntingKnifeTemplateUse",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hunting_knife_template_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/HuntingKnifeTemplateUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "CombatKnifeTemplateRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combat_knife_template_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/CombatKnifeTemplateRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "RoyalKnifeTemplateRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_knife_template_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/RoyalKnifeTemplateRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "MilitaryKnifeTemplateRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "military_knife_template_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/MilitaryKnifeTemplateRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "KennyKnifeTemplateRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kenny_knife_template_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/KennyKnifeTemplateRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "GiveMoney",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_money",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/GiveMoneyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Money"
+    },
+    {
+      "name": "GiveMoneyLater",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_money_later",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/GiveMoneyLaterProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Money"
+    },
+    {
+      "name": "TestRank",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_rank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/TestRankProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Members/ranks"
+    },
+    {
+      "name": "SelfHarm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "self_harm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/SelfHarmProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Knifes"
+    },
+    {
+      "name": "Welcome",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "welcome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/WelcomeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Members/NewSystem"
+    },
+    {
+      "name": "TestGUI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_gui",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/TestGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Members/NewSystem"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Hardcore",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "HardcoreDisplay",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "StoreX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "StoreZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "StoreY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Revive",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "Rank",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "Squad",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "IDCounter",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "Counter",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "CustomTim",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Bank",
+      "type": "string",
+      "scope": "global",
+      "value": ""
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {
+    "CUSTOM:DawnOfHumanityEssentials": [
+      "Knife",
+      "Soap",
+      "KnifeTemplate",
+      "HuntingKnifeTemplate",
+      "CombatKnifeTemplate",
+      "RoyalKnifeTemplate",
+      "MilitaryKnifeTemplate",
+      "KennyKnifeTemplate",
+      "CrossguardKnife",
+      "Grenade",
+      "SmokeGrenade",
+      "MedicalKit"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.dawn_of_humanity.medical_kit": "Medical Kit",
+      "item.dohess.grenade": "Grenade",
+      "item.dawn_of_humanity.smoke_grenade": "Grenade",
+      "item.dohess.hunting_knife_template": "Hunting Knife Template",
+      "item.dohess.knife": "Knife",
+      "item.dohess.royal_knife_template": "Royal Knife Template",
+      "item.dohess.medical_kit": "Medical Kit",
+      "item.dawn_of_humanity.crossguard_knife": "Crossguard Knife",
+      "item.dohess.combat_knife_template": "Combat Knife Template",
+      "itemGroup.dohess.dawn_of_humanity_essentials": "Dawn Of Humanity: Essentials!",
+      "item.dawn_of_humanity.royal_knife_template": "Royal Knife Template",
+      "item.dawn_of_humanity.hunting_knife_template": "Hunting Knife Template",
+      "item.dohess.soap": "Soap",
+      "item.dawn_of_humanity.knife.description_0": "Right click with a knife template in your off-hand to add a custom display on your knife",
+      "item.dawn_of_humanity.knife_template": "Knife Template",
+      "item.dohess.smoke_grenade": "Grenade",
+      "item.dohess.medical_kit.description_1": "Not Sneaking: Heal Self",
+      "item.dohess.medical_kit.description_0": "Sneaking: Heal player/mob you\u0027re looking at",
+      "itemGroup.dawn_of_humanity.dawn_of_humanity_essentials": "Dawn Of Humanity: Essentials!",
+      "item.dawn_of_humanity.combat_knife_template": "Combat Knife Template",
+      "item.dawn_of_humanity.grenade": "Grenade",
+      "item.dohess.crossguard_knife": "Crossguard Knife",
+      "item.dohess.knife.description_0": "Right click with a knife template in your off-hand to add a custom display on your knife",
+      "item.dohess.knife_template": "Knife Template",
+      "itemGroup.tabdawn_of_humanity_essentials": "Dawn Of Humanity: Essentials!",
+      "item.dawn_of_humanity.kenny_knife_template": "Kenny Knife Template",
+      "item.dawn_of_humanity.soap": "Soap",
+      "item.dawn_of_humanity.military_knife_template": "Military Knife Template",
+      "item.dohess.military_knife_template": "Military Knife Template",
+      "item.dohess.kenny_knife_template": "Kenny Knife Template",
+      "item.dawn_of_humanity.medical_kit.description_0": "Sneaking: Heal player/mob you\u0027re looking at",
+      "item.dawn_of_humanity.medical_kit.description_1": "Not Sneaking: Heal Self",
+      "item.dawn_of_humanity.knife": "Knife"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "PD",
+        "children": []
+      },
+      {
+        "name": "Cadets",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Knifes",
+            "children": []
+          },
+          {
+            "name": "GasBarrel",
+            "children": []
+          },
+          {
+            "name": "Grenades",
+            "children": []
+          },
+          {
+            "name": "MedicalKit",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Members",
+        "children": [
+          {
+            "name": "ranks",
+            "children": []
+          },
+          {
+            "name": "Regiment",
+            "children": []
+          },
+          {
+            "name": "Squad",
+            "children": []
+          },
+          {
+            "name": "ID",
+            "children": []
+          },
+          {
+            "name": "Actor",
+            "children": []
+          },
+          {
+            "name": "NewSystem",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Money",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "dohess",
+    "modName": "DOH: Essentials",
+    "version": "1.0.0",
+    "author": "Jamie Gunn, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "pehkui"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.dawnofhumanity"
+  },
+  "mcreatorVersion": 202400452410
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "dohess:custom/kenny_knife",
+  "textures": {
+    "0": "dohess:block/kenny_knife",
+    "particle": "minecraft:item/iron_sword"
+  }
+}

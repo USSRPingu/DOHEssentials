@@ -1,0 +1,39 @@
+{
+  "parent": "dohess:custom/knife",
+  "textures": {
+    "0": "dohess:block/knife_bandit",
+    "particle": "minecraft:item/iron_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "dohess:knife_knife": 1
+      },
+      "model": "dohess:item/knife_0"
+    },
+    {
+      "predicate": {
+        "dohess:knife_knife": 2
+      },
+      "model": "dohess:item/knife_1"
+    },
+    {
+      "predicate": {
+        "dohess:knife_knife": 3
+      },
+      "model": "dohess:item/knife_2"
+    },
+    {
+      "predicate": {
+        "dohess:knife_knife": 4
+      },
+      "model": "dohess:item/knife_3"
+    },
+    {
+      "predicate": {
+        "dohess:knife_knife": 5
+      },
+      "model": "dohess:item/knife_4"
+    }
+  ]
+}

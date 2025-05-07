@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "knife_makeshift"
+      },
+      "name": "default"
+    }
+  }
+}

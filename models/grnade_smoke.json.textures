@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bomb_smoke"
+      },
+      "name": "default"
+    }
+  }
+}

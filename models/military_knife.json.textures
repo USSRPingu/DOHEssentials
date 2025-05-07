@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "military_knife"
+      },
+      "name": "default"
+    }
+  }
+}
