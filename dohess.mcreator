@@ -1753,7 +1753,7 @@
     {
       "name": "Welcome",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "welcome",
       "metadata": {
@@ -1764,30 +1764,87 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
       "path": "~/Members/NewSystem"
     },
     {
-      "name": "TestGUI",
+      "name": "RankStartScreen",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rank_start_screen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/world/inventory/RankStartScreenMenu.java",
+          "src/main/java/net/mcreator/dawnofhumanity/network/RankStartScreenButtonMessage.java",
+          "src/main/java/net/mcreator/dawnofhumanity/client/gui/RankStartScreenScreen.java"
+        ]
+      },
+      "path": "~/Members/NewSystem"
+    },
+    {
+      "name": "SquadRegimentChoose",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squad_regiment_choose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dawnofhumanity/client/gui/SquadRegimentChooseScreen.java",
+          "src/main/java/net/mcreator/dawnofhumanity/network/SquadRegimentChooseButtonMessage.java",
+          "src/main/java/net/mcreator/dawnofhumanity/world/inventory/SquadRegimentChooseMenu.java"
+        ]
+      },
+      "path": "~/Members/NewSystem"
+    },
+    {
+      "name": "RankToSquadRegiment",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "test_gui",
+      "registry_name": "rank_to_squad_regiment",
       "metadata": {
-        "return_type": "entity",
         "files": [
-          "src/main/java/net/mcreator/dawnofhumanity/procedures/TestGUIProcedure.java"
+          "src/main/java/net/mcreator/dawnofhumanity/procedures/RankToSquadRegimentProcedure.java"
         ],
         "dependencies": [
           {
-            "name": "arguments",
-            "type": "cmdcontext"
-          },
-          {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -1894,20 +1951,27 @@
       "item.dohess.hunting_knife_template": "Hunting Knife Template",
       "item.dohess.knife": "Knife",
       "item.dohess.royal_knife_template": "Royal Knife Template",
+      "gui.dohess.rank_start_screen.button_squads": "Squads",
       "item.dohess.medical_kit": "Medical Kit",
       "item.dawn_of_humanity.crossguard_knife": "Crossguard Knife",
       "item.dohess.combat_knife_template": "Combat Knife Template",
       "itemGroup.dohess.dawn_of_humanity_essentials": "Dawn Of Humanity: Essentials!",
       "item.dawn_of_humanity.royal_knife_template": "Royal Knife Template",
       "item.dawn_of_humanity.hunting_knife_template": "Hunting Knife Template",
+      "gui.dohess.squad_regiment_choose.button_scouts": "Scouts",
       "item.dohess.soap": "Soap",
       "item.dawn_of_humanity.knife.description_0": "Right click with a knife template in your off-hand to add a custom display on your knife",
+      "gui.dohess.squad_regiment_choose.button_cadets1": "Cadets",
+      "gui.dohess.squad_regiment_choose.button_government": "Government",
+      "gui.dohess.squad_regiment_choose.button_other": "Other",
       "item.dawn_of_humanity.knife_template": "Knife Template",
       "item.dohess.smoke_grenade": "Grenade",
       "item.dohess.medical_kit.description_1": "Not Sneaking: Heal Self",
       "item.dohess.medical_kit.description_0": "Sneaking: Heal player/mob you\u0027re looking at",
       "itemGroup.dawn_of_humanity.dawn_of_humanity_essentials": "Dawn Of Humanity: Essentials!",
+      "gui.dohess.squad_regiment_choose.button_back": "Back",
       "item.dawn_of_humanity.combat_knife_template": "Combat Knife Template",
+      "gui.dohess.rank_start_screen.button_ranks": "Ranks",
       "item.dawn_of_humanity.grenade": "Grenade",
       "item.dohess.crossguard_knife": "Crossguard Knife",
       "item.dohess.knife.description_0": "Right click with a knife template in your off-hand to add a custom display on your knife",
@@ -1920,7 +1984,9 @@
       "item.dohess.kenny_knife_template": "Kenny Knife Template",
       "item.dawn_of_humanity.medical_kit.description_0": "Sneaking: Heal player/mob you\u0027re looking at",
       "item.dawn_of_humanity.medical_kit.description_1": "Not Sneaking: Heal Self",
-      "item.dawn_of_humanity.knife": "Knife"
+      "gui.dohess.squad_regiment_choose.button_garrison": "Garrison",
+      "item.dawn_of_humanity.knife": "Knife",
+      "gui.dohess.squad_regiment_choose.button_militarypolice": "MilitaryPolice"
     }
   },
   "foldersRoot": {

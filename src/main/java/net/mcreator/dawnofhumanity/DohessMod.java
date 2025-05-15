@@ -18,6 +18,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.network.PacketBuffer;
 
 import net.mcreator.dawnofhumanity.init.DohessModTabs;
+import net.mcreator.dawnofhumanity.init.DohessModMenus;
 import net.mcreator.dawnofhumanity.init.DohessModItems;
 import net.mcreator.dawnofhumanity.init.DohessModEntities;
 
@@ -44,6 +45,8 @@ public class DohessMod {
 
 		DohessModItems.REGISTRY.register(bus);
 		DohessModEntities.REGISTRY.register(bus);
+
+		DohessModMenus.REGISTRY.register(bus);
 
 		bus.register(this);
 		// Start of user code block mod init

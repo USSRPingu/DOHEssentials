@@ -1,0 +1,51 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ranks",
+          "text": "Ranks",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "RankToSquadRegiment"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 244,
+          "y": 45,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_squads",
+          "text": "Squads",
+          "isUndecorated": false,
+          "width": 56,
+          "height": 20,
+          "x": 239,
+          "y": 75,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

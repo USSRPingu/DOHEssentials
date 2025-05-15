@@ -14,11 +14,11 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.dawnofhumanity.world.inventory.RankStartScreenMenu;
+import net.mcreator.dawnofhumanity.world.inventory.SquadRegimentChooseMenu;
 
 import io.netty.buffer.Unpooled;
 
-public class WelcomeProcedure {
+public class RankToSquadRegimentProcedure {
 	public static void execute(IWorld world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
@@ -27,12 +27,12 @@ public class WelcomeProcedure {
 			NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 				@Override
 				public ITextComponent getDisplayName() {
-					return new StringTextComponent("RankStartScreen");
+					return new StringTextComponent("SquadRegimentChoose");
 				}
 
 				@Override
 				public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-					return new RankStartScreenMenu(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
+					return new SquadRegimentChooseMenu(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
 				}
 			}, _bpos);
 		}

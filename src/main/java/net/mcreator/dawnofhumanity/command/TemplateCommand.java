@@ -112,7 +112,7 @@ public class TemplateCommand {
 					if (entity != null)
 						direction = entity.getHorizontalFacing();
 
-					WelcomeProcedure.execute(entity);
+					WelcomeProcedure.execute(world, x, y, z, entity);
 					return 0;
 				}))).then(Commands.literal("permadeath").then(Commands.literal("on").executes(arguments -> {
 					World world = arguments.getSource().getWorld();
